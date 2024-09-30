@@ -1,0 +1,42 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  mysqldb:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mGFeanZG
+      MYSQL_DATABASE: amdaridb
+      MYSQL_USER: amdariuser
+      MYSQL_PASSWORD: mGFeanZG10784
+    
+    volumes: 
+     - mysqldb-volume:/etc/mysql/my.cnf
+
+    ports: 
+     - 3307:3306
+
+  postgresdb:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_DATABASE: mGFeanZG
+      POSTGRES_USER: amdariuser
+      POSTGRES_DB: amdaridb
+
+    volumes:
+       - postgresdb-volume:/var/lib/postgresql/data 
+
+    ports:
+       - 5435:5432
+
+volumes: 
+  mysqldb-volume: {} 
+  postgresdb-volume: {}
+
+
+    
+

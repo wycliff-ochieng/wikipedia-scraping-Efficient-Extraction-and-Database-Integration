@@ -15,4 +15,9 @@ Before running this project, ensure the following dependencies are installed:
 5. **Mysql-connector-python**: MySQL connector for Python.
 6. **Sqlalchemy**: ORM to interact with PostgreSQL/MySQL databases.
 
+Install dependencies using pip
+```bash
+pip install requests beautifulsoup4 pandas psycopg2 mysql-connector-python sqlalchemy
+```
+
 

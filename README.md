@@ -23,7 +23,7 @@ pip install requests beautifulsoup4 pandas psycopg2 mysql-connector-python sqlal
 ## Steps Overview
 **1. Data Extraction (Scraping from Wikipedia)**
 - Fetch the webpage containing the list of top universities (e.g., List of top universities by country).
--- Parse the HTML using BeautifulSoup to locate the table containing university names, rankings, and other relevant details.
+- Parse the HTML using BeautifulSoup to locate the table containing university names, rankings, and other relevant details.
 **2. Data Cleaning**
 - Clean the scraped data by removing unnecessary columns, handling missing values, and correcting data types.
 - Normalize the data and store it in both CSV and JSON formats.

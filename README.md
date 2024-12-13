@@ -1,9 +1,9 @@
-#Data Engineering project:Wikipedia Extraction and Database Integrtion
+# Data Engineering project:Wikipedia Extraction and Database Integrtion
 
-##project overview
+## project overview
 This project focuses on extracting data from Wikipedia, cleaning it, and storing it in structured formats (CSV and JSON). The data is then loaded into two popular relational database management systems: PostgreSQL and MySQL. The primary goal is to gather information on the list of top universities, clean and process the data, and integrate it into relational databases for further analysis and querying.
 
-##prerequisites
+## prerequisites
 Before running this project, ensure the following dependencies are installed:
 
 Python 3.7+

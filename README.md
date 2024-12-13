@@ -22,15 +22,15 @@ pip install requests beautifulsoup4 pandas psycopg2 mysql-connector-python sqlal
 ```
 ## Steps Overview
 **1. Data Extraction (Scraping from Wikipedia)**
-- Fetch the webpage containing the list of top universities (e.g., List of top universities by country).
-- Parse the HTML using BeautifulSoup to locate the table containing university names, rankings, and other relevant details.
+     - Fetch the webpage containing the list of top universities (e.g., List of top universities by country).
+     - Parse the HTML using BeautifulSoup to locate the table containing university names, rankings, and other relevant details.
 **2. Data Cleaning**
-- Clean the scraped data by removing unnecessary columns, handling missing values, and correcting data types.
-- Normalize the data and store it in both CSV and JSON formats.
+     - Clean the scraped data by removing unnecessary columns, handling missing values, and correcting data types.
+     - Normalize the data and store it in both CSV and JSON formats.
 **3. Database Integration**
-- Set up PostgreSQL and MySQL databases inside Docker containers.
-- Create tables to store the university data.
-- Insert the cleaned data into the respective databases using Python and SQLAlchemy.
+    - Set up PostgreSQL and MySQL databases inside Docker containers.
+    - Create tables to store the university data.
+    - Insert the cleaned data into the respective databases using Python and SQLAlchemy.
 
 
 
